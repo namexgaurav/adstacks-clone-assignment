@@ -23,10 +23,7 @@ class DashboardTopBar extends StatelessWidget implements PreferredSizeWidget {
           if (onMenuTap != null)
             IconButton(
               onPressed: onMenuTap,
-              icon: const Icon(
-                Icons.menu_rounded,
-                color: AppColors.textPrimary,
-              ),
+              icon: const Icon(Icons.menu_rounded, color: AppColors.textDark),
             ),
           Text(
             title,
